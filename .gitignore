@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+F1 Data/
+backups/
+kaggle_upload/
+*.zip
+.env
+kaggle.json
+access_token
+
+# Keep original working notebooks and editor settings local
+Notebook.ipynb
+Notebook2.ipynb
+Notebook2_Review.md
+.vscode/
+
+# Keep Notebook0 as the only notebook submitted from this repository
+*.ipynb
+!Notebook0.ipynb
