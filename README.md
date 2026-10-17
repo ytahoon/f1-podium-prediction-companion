@@ -6,15 +6,8 @@ pre-race features, model comparisons, experiments, explainability and inference.
 ## Main files
 
 - [Notebook0.ipynb](Notebook0.ipynb): complete executed notebook, in milestone order.
-- [Analytical PDF report](reports/ACL_Milestone_1_Report.pdf): eight summary pages
-  and an appendix containing all 32 static notebook figures.
-- [Final model comparison](reports/complete_modeling_report.csv): training,
-  validation and unseen-test results for all three final models.
-- [Modeling table](reports/modeling_table.csv): one row per driver-race with
-  unfilled original-unit features; `podium` is the target.
-- [Final model inputs](reports/final_model_inputs.csv): the prepared 17 inputs,
-  with identifiers/split/target retained separately for traceability.
-- [Reproducibility record](reports/reproducibility_report.json), including data hashes.
+- `requirements.txt`: installation dependencies.
+- `requirements-tested.txt`: exact versions used for local verification.
 
 ## Run locally
 
@@ -36,8 +29,8 @@ folder containing the CSVs. Data remain immutable; cleaning uses copies.
 The source dataset referenced by the milestone is
 [Formula 1 World Championship / Ergast on Kaggle](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020).
 This work uses the supplied 2024 snapshot, not an automatically refreshed dataset.
-The exact CSV hashes are recorded for reproducibility. The original raw data and
-private working backups are not committed to this repository.
+The original raw data and private working backups are not committed to this
+repository. Use the supplied snapshot when reproducing the results.
 
 ## Kaggle
 
@@ -82,5 +75,5 @@ units. It does not retrieve live results or reconstruct history from a driver ID
 
 `Notebook0.ipynb` is the only submission notebook. Older notebooks, backups,
 duplicate upload bundles and intermediate report exports are archived outside
-the project folder. The repository retains the analytical PDF, final comparison
-table, modeling tables and reproducibility records.
+the project folder. Reports and exported result tables are kept locally and
+excluded from this repository for now.

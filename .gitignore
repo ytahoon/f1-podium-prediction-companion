@@ -19,3 +19,6 @@ Notebook2_Review.md
 # Keep Notebook0 as the only notebook submitted from this repository
 *.ipynb
 !Notebook0.ipynb
+
+# Keep reports and result exports local for now
+/reports/
