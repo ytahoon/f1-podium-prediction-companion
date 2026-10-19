@@ -1,4 +1,4 @@
-# Exact packages used for the verified Python 3.13 environment.
+# Exact packages used by the verified Python 3.13.7 kernel. JupyterLab is an optional interface.
 numpy==2.5.4
 pandas==3.0.6
 matplotlib==3.11.2
@@ -11,3 +11,6 @@ ipykernel==7.4.0
 nbformat==5.11.1
 nbclient==0.11.0
 jupyter-client==8.10.0
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.7.0
